@@ -11,7 +11,7 @@
 
 int main() {
 
-    // Declaring vector
+    // Declaring vector of students
     std::vector<std::pair<std::string, int>> students;
 
     // Declaring variable to store user input
