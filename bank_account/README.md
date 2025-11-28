@@ -18,14 +18,14 @@ Basic menu-driven console interaction
 
 Features
 
-✔ Show balance
-✔ Deposit money (only positive amounts allowed)
-✔ Withdraw money
+Show balance
+Deposit money (only positive amounts allowed)
+Withdraw money
     • prevents negative numbers
     • prevents withdrawing more than available
-✔ Error handling with std::runtime_error
-✔ Clean class design with encapsulation
-✔ Loop-based menu system
+Error handling with std::runtime_error
+Clean class design with encapsulation
+Loop-based menu system
 
 What I learned
 
