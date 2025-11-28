@@ -1,42 +1,35 @@
-BankAccount Console App (C++)
+BankAccount Console Application (C++)
 
-A simple interactive banking program written in C++.
+This project is a simple console-based banking application implemented in C++.
+It demonstrates fundamental object-oriented programming concepts and basic error handling techniques using exceptions.
 
-This project demonstrates how to work with:
+Overview
 
-Classes and objects
+The application allows the user to interact with a bank account through a text-based menu. Users can:
 
-Private attributes
+Display the current account balance
 
-Public methods
+Deposit money
+
+Withdraw money
+
+Exit the program
+
+All operations are validated to ensure safe and correct behaviour.
+Invalid operations (such as depositing negative amounts or withdrawing more than the available balance) are handled using std::runtime_error exceptions.
+
+Key Concepts Demonstrated
+
+Class design and encapsulation
+
+Private data members
+
+Public member functions
 
 Input validation
 
 Exception handling (try, throw, catch)
 
-Basic menu-driven console interaction
+Basic loop-driven menu structure
 
-Features
-
-Show balance
-Deposit money (only positive amounts allowed)
-Withdraw money
-    • prevents negative numbers
-    • prevents withdrawing more than available
-Error handling with std::runtime_error
-Clean class design with encapsulation
-Loop-based menu system
-
-What I learned
-
-How to create classes in C++
-
-How to use private variables
-
-How to write methods that validate input
-
-How exceptions work: try, throw and catch
-
-How to structure a console program with a loop and menu
-
-How to implement simple banking logic in an object-oriented way
+Separation of concerns inside a class
