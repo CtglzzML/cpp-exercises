@@ -1,4 +1,4 @@
-##Student ID Validator (C++)
+Student ID Validator (C++)
 
 This is a simple C++ program that stores and validates unique student IDs using a std::set.
 The program asks the user to enter 5 student IDs, automatically detects duplicates, and finally prints all valid IDs.
